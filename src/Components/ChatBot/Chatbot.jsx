@@ -15,7 +15,7 @@ const suggestionsList = [
   "checklist item",
   "Formula for DTI",
   "Customer Details",
-  "Provide list of customer test data"
+  "Provide 20 records of customer"
 ];
 
 const ChatBot = () => {
