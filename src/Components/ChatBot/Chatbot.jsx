@@ -57,7 +57,7 @@ const ChatBot = () => {
 
         // Check if the message contains "vin" and the response is not the default "unable to understand" message
         if (
-          message.toLowerCase().includes('vin') &&
+          (message.toLowerCase().includes('vin') || message.toLowerCase().includes('customer')) &&
           response.data.answer !== 'Sorry, I am not able to understand the question.'
         ) {
           setShowVinPrompt(true);
